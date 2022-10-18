@@ -1,0 +1,19 @@
+CONSEGNA: 
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+
+UTO usate
+
+- ID : INT, NOT_NULL,AUTO_INCREMENT,UNIQUE - PRIMARY KEY
+- Marca : stringa - VARCHAR(50) - NOT_NULL
+- Modello : stringa - VARCHAR(50) - NOT_NULL
+- Cilindrata : INT => SMALLINT, NOT_NULL
+- Alimentazione : stringa - VARCHAR(15) - NOT_NULL
+- Anno : data - YEAR - NOT_NULL
+- Garanzia : BOOL
+- KM percorsi : intero - SMALLINT - NOT_NULL
+- Prezzo : stringa - VARCHAR(20) - NOT_NULL
+- Cambio Manuale : BOOL
+- Cambio Automatico : BOOL
+- Chilometraggio : INT => MEDIUMINT, NOT_NULL
